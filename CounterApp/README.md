@@ -1,6 +1,6 @@
 # Counter App
 
-A simple Counter Application built using React. The project demonstrates React fundamentals such as components, state management, and event handling.
+A simple Counter Application built using React. This project demonstrates React fundamentals such as state management, event handling, and component-based development.
 
 ## Features
 
@@ -8,12 +8,12 @@ A simple Counter Application built using React. The project demonstrates React f
 - Decrement Counter
 - Reset Counter
 - Prevent Negative Values
-- Responsive Design
+- Simple User Interface
 
 ## Technologies Used
 
 - React
-- JavaScript
+- JavaScript (ES6)
 - CSS
 - Vite
 
@@ -27,6 +27,7 @@ CounterApp/
 │   ├── App.css
 │   └── main.jsx
 │
+├── public/
 ├── package.json
 ├── vite.config.js
 └── README.md
@@ -52,7 +53,7 @@ Install dependencies:
 npm install
 ```
 
-Run the development server:
+Start the development server:
 
 ```bash
 npm run dev
@@ -64,20 +65,20 @@ Open:
 http://localhost:5173
 ```
 
-## How It Works
+## Usage
 
 - Click **+** to increase the counter.
 - Click **-** to decrease the counter.
-- Click **Reset** to reset the counter to zero.
-- The counter cannot go below zero.
+- Click **Reset** to reset the counter value.
+- Counter value cannot go below zero.
 
 ## Learning Outcomes
 
 - React Components
 - useState Hook
 - Event Handling
+- State Management
 - Conditional Logic
-- Project Structure in React
 
 ## Author
 
