@@ -1,16 +1,84 @@
-# React + Vite
+# Counter App
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A simple Counter Application built using React. The project demonstrates React fundamentals such as components, state management, and event handling.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Increment Counter
+- Decrement Counter
+- Reset Counter
+- Prevent Negative Values
+- Responsive Design
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- JavaScript
+- CSS
+- Vite
 
-## Expanding the Oxlint configuration
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+```text
+CounterApp/
+│
+├── src/
+│   ├── App.jsx
+│   ├── App.css
+│   └── main.jsx
+│
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/vinayak833/CounterApp.git
+```
+
+Navigate to the project folder:
+
+```bash
+cd CounterApp
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+Open:
+
+```text
+http://localhost:5173
+```
+
+## How It Works
+
+- Click **+** to increase the counter.
+- Click **-** to decrease the counter.
+- Click **Reset** to reset the counter to zero.
+- The counter cannot go below zero.
+
+## Learning Outcomes
+
+- React Components
+- useState Hook
+- Event Handling
+- Conditional Logic
+- Project Structure in React
+
+## Author
+
+Vinayak S
