@@ -2,6 +2,11 @@ import { useState } from "react";
 
 function App() {
   const [count, setCount] = useState(0);
+  const decrease = () => {
+  if (count > 0) {
+    setCount(count - 1);
+  }
+};
 
   return (
     <div>
@@ -9,7 +14,7 @@ function App() {
 
       <h2>{count}</h2>
 
-      <button onClick={() => setCount(count - 1)}>
+     <button onClick={decrease}>
         -
       </button>
 
@@ -20,6 +25,7 @@ function App() {
       <button onClick={() => setCount(count + 1)}>
         +
       </button>
+      
     </div>
   );
 }
